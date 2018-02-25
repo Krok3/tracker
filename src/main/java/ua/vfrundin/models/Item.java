@@ -8,6 +8,12 @@ public class Item {
     private String[] comments;
     private int commentsPosition = 0;
 
+    public Item(String name, String description) {
+        this.name = name;
+        this.description = description;
+        commentsPosition = 0;
+    }
+
     public Item(String name, String description, long create) {
         this.name = name;
         this.description = description;
