@@ -14,6 +14,10 @@ public class Item {
         commentsPosition = 0;
     }
 
+    public Item() {
+
+    }
+
     public Item(String name, String description, long create) {
         this.name = name;
         this.description = description;
