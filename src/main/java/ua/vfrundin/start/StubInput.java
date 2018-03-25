@@ -25,7 +25,7 @@ public class StubInput implements Input {
      */
     private int position;
 
-    public StubInput (final String[] value) {
+    public StubInput(final String[] value) {
         this.value = value;
     }
 
